@@ -1,4 +1,5 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import type { ChangeEvent, FormEvent } from "react";
+import { useState } from "react";
 import s from "./SearchBar.module.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import toast from "react-hot-toast";
